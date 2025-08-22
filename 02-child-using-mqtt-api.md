@@ -7,7 +7,7 @@ In this option we have:
 The connected child-device will use the MQTT Broker running on the Gateway to receive firmware update instruction and to report about the firmware update progress. The firmware image will be downloaded from the Gateway. 
 
 
-<img src="imgs/option-2-overview.png" alt="Overview" width="500"/>
+<img src="imgs/option-2-overview.png" alt="Overview" width="600"/>
 
 
 # Description

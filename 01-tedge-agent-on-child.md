@@ -4,7 +4,7 @@ In this setting we have:
 - A Gateway with thin-edge.io (mapper, mqtt broker and tedge-agent) running
 - A connected child-device with a tedge-agent instance running locally
 
-<img src="imgs/option-1-overview.png" alt="Overview" width="500"/>
+<img src="imgs/option-1-overview.png" alt="Overview" width="600"/>
 
 # Description
 

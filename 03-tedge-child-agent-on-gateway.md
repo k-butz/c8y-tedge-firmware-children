@@ -5,7 +5,7 @@ In this option we have:
 - an additional tedge-agent instance for a connected child-device on the Gateway. This instance will take care of doing Firmware Updates on the child-device via firmware workflows
 - nothing from thin-edge.io running on the connected child-device
 
-<img src="imgs/option-3-overview.png" alt="Overview" width="500"/>
+<img src="imgs/option-3-overview.png" alt="Overview" width="600"/>
 
 # Description
 
