@@ -41,7 +41,7 @@ EOT
 2. Create a new service from the systemd service template
 
 ```sh
-systemctl enable --now tedge-agent@proxy-child03.service
+systemctl enable --now tedge-agent@proxy-child01.service
 ```
 
 Where the string after the `@` sign is used in the topic prefix, e.g. `device/<name>//`
@@ -49,13 +49,13 @@ Where the string after the `@` sign is used in the topic prefix, e.g. `device/<n
 3. Check that the service is running
 
 ```sh
-systemctl status tedge-agent@proxy-child03.service
+systemctl status tedge-agent@proxy-child01.service
 ```
 
 4. Add any agent specific files under the relevant sub folder (which is created when the service is started)
   
 ```sh
-ls -l /etc/agents/proxy-child03
+ls -l /etc/agents/proxy-child01
 ```
 
 5. Check in Cumulocity that the new child device (represented by the new tedge-agent service) is visible
@@ -63,7 +63,7 @@ ls -l /etc/agents/proxy-child03
 6. You can then add tedge-agent workflows under the following folder
 
 ```sh
-ls -l /etc/agents/proxy-child03/operations/
+ls -l /etc/agents/proxy-child01/operations/
 ```
 
 # Sample Workflow
