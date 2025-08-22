@@ -12,6 +12,8 @@ The connected child-device will use the MQTT Broker running on the Gateway to re
 
 # Description
 
+> Below instructions are using the tedge-cli to publish and subscribe for MQTT messages. Feel free to use any MQTT client/lib on your child-device for this. 
+
 1. Register child device:
 
 ```sh
